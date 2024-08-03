@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="d0eb588447f78210d4428f59e16d4345" label="Disaster" max_length="40" name="x_1283601_disaster_disaster" type="collection">
+        <element label="Disaster Type" max_length="40" name="disaster_type" type="string"/>
+        <element label="Location" max_length="255" name="location" type="string_full_utf8"/>
+        <element label="Mail" max_length="40" name="mail" type="string"/>
+        <element label="Mobile number" max_length="40" name="mobile_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Name" max_length="40" name="name" type="string"/>
+    </element>
+</database>

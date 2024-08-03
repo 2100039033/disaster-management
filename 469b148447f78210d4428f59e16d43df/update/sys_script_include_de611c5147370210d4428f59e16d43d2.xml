@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_1283601_disaster.GeolocationProcessor</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>GeolocationProcessor</name>
+        <script><![CDATA[var GeolocationProcessor = Class.create();
+GeolocationProcessor.prototype = Object.extendsObject(new AbstractAjaxProcessor(), {
+    
+	    storeLocation: function() {
+		        var lat = this.getParameter('lat');
+				        var lon = this.getParameter('lon');
+						        
+								        // Example: Storing the location in a custom table
+										        var locationGR = new GlideRecord('u_location_table'); // Replace 'u_location_table' with your custom table name
+												        locationGR.initialize();
+														        locationGR.u_latitude = lat;
+																        locationGR.u_longitude = lon;
+																		        locationGR.insert();
+																				        
+																						        return 'Location stored successfully';
+																								    }
+
+																									});
+																									
+
+
+
+]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-02 12:54:08</sys_created_on>
+        <sys_id>de611c5147370210d4428f59e16d43d2</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>GeolocationProcessor</sys_name>
+        <sys_package display_value="Disaster Management" source="x_1283601_disaster">469b148447f78210d4428f59e16d43df</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Disaster Management">469b148447f78210d4428f59e16d43df</sys_scope>
+        <sys_update_name>sys_script_include_de611c5147370210d4428f59e16d43d2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-02 13:11:16</sys_updated_on>
+    </sys_script_include>
+</record_update>

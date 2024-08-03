@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="d012189147370210d4428f59e16d43e7" label="u_location_table" max_length="40" name="x_1283601_disaster_u_location_table" type="collection">
+        <element label="latitude" max_length="40" name="latitude" type="string"/>
+        <element label="longitude" max_length="40" name="longitude" type="string"/>
+    </element>
+</database>
