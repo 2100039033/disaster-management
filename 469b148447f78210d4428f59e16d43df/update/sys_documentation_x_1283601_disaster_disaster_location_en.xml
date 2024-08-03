@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="location" label="Location" language="en" table="x_1283601_disaster_disaster">
+    <sys_documentation element="location" label="gps_location" language="en" table="x_1283601_disaster_disaster">
         <sys_documentation action="INSERT_OR_UPDATE">
             <element>location</element>
             <help/>
             <hint/>
-            <label>Location</label>
+            <label>gps_location</label>
             <language>en</language>
             <name>x_1283601_disaster_disaster</name>
-            <plural>Locations</plural>
+            <plural>gps_locations</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2024-08-02 12:31:23</sys_created_on>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_name>Location</sys_name>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>gps_location</sys_name>
             <sys_package display_value="Disaster Management" source="x_1283601_disaster">469b148447f78210d4428f59e16d43df</sys_package>
             <sys_policy/>
             <sys_scope display_value="Disaster Management">469b148447f78210d4428f59e16d43df</sys_scope>
             <sys_update_name>sys_documentation_x_1283601_disaster_disaster_location_en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-08-02 12:31:23</sys_updated_on>
+            <sys_updated_on>2024-08-03 04:39:53</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>
